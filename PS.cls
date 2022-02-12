@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{PS}[2022/02/11 Problem Sheet Class]
+\ProvidesClass{PS}[2022/02/12 Problem Sheet Class]
 \LoadClass{article}
 
 \RequirePackage[margin=3cm]{geometry}
@@ -32,8 +32,8 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\rhead{\@author}
-\lhead{\@module\ PS\ \@psnumber}
-\chead{Page\ \thepage}
+\lhead{\@author}
+\rhead{\@module\ PS\ \@psnumber}
+\cfoot{Page\ \thepage}
